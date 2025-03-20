@@ -23,3 +23,48 @@
 <script type="module" src="js/home.js"></script>
 
 </html>
+
+<style> 
+  table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+th,
+td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+th {
+  background-color: #f4f4f4;
+}
+</style>
+
+<div id="conteudo-protegido"> 
+  <h1>
+    <div id="resposta-usuarios">
+      <h2>Lista de Usuários</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>ID</th>
+            <th>Nome</th>
+            <th>Email</th>
+            <th>Senha</th>
+            <th>Ações</th>
+          </tr>
+        </thead>
+        <tbody id="tabela-usuarios">
+          <!-- Os dados serão inseridos aqui -->
+        </tbody>
+      </table>
+    </div>
+  </h1>
+</div>
+
+<h1>
+  <a href="inserir-usuario.html">Inserir Usuário</a>
+</h1>
